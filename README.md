@@ -15,9 +15,54 @@ This project is a comprehensive audit of **Git**, an open-source distributed ver
 * `script4_analyzer.sh`: Analyzes log files for specific keywords.
 * `script5_manifesto.sh`: Interactive script to generate a personalized Open Source Manifesto.
 
+---
+
 ## How to Run the Scripts
-Ensure you are in a Linux environment or Git Bash.
-1. Make the scripts executable:
-   `chmod +x *.sh`
-2. Run a specific script:
-   `./script1_identity.sh`
+
+Follow these steps on a Linux system:
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/Omber-forever/oss-audit-24MEi10055
+cd oss-audit-24MEi10055
+```
+
+### Step 2: Give Execution Permission
+
+```bash
+chmod +x *.sh
+```
+
+### Step 3: Run Each Script
+
+Script 1:
+```bash
+./script1_system_identity.sh
+```
+
+Script 2:
+```bash
+./script2_inspector.sh
+```
+
+Script 3:
+```bash
+./script3_auditor.sh
+```
+
+Script 4:
+```bash
+./script4_analyzer.sh test.log error
+```
+
+Script 5:
+```bash
+./script5_manifesto.sh
+```
+
+### Requirements
+> * Linux system (Debian/Ubuntu recommended)
+> * Bash shell
+> * Git installed.sh
+```
