@@ -41,25 +41,35 @@ Script 1:
 ./script1_system_identity.sh
 ```
 
+![SCRIPT1](<./Screenshots/Screenshot 2026-03-30 124520.png>)
+
 Script 2:
 ```bash
 ./script2_inspector.sh
 ```
+![SCRIPT1](<./Screenshots/Screenshot 2026-03-30 125335.png>)
+
 
 Script 3:
 ```bash
 ./script3_auditor.sh
 ```
+![SCRIPT1](<./Screenshots/Screenshot 2026-03-30 140851.png>)
+
 
 Script 4:
 ```bash
 ./script4_analyzer.sh test.log error
 ```
+![SCRIPT1](<./Screenshots/Screenshot 2026-03-30 141121.png>)
+
 
 Script 5:
 ```bash
 ./script5_manifesto.sh
 ```
+![SCRIPT1](<./Screenshots/Screenshot 2026-03-30 142148.png>)
+
 
 ### Requirements
 > * Linux system (Debian/Ubuntu recommended)
